@@ -1,9 +1,9 @@
 ---
-title: Mr. Hare
-slug: mr-hare
-date: Aug 2019
-thumb: ../images/thumbs/hare.png
-imgs: ../images/mr-hare/
+title: Bottled Up
+slug: bottled-up
+date: Dec 2018
+thumb: ../images/thumbs/bottled-up.png
+imgs: ../images/bottled-up/
 category: pen-ink
 featured: true
 ---

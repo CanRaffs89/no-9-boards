@@ -17,6 +17,7 @@ export default function Navbar() {
             <div className="nav-container">
                 <ul>
                     <li><Link to="/buy" className="navlink">Buy</Link></li>
+                    <li><Link to="/portfolio" className="navlink">Work</Link></li>
                     <li><Link to="/about" className="navlink">About</Link></li>
                     <li><Link to="/contact" className="navlink">Contact</Link></li>
                 </ul>

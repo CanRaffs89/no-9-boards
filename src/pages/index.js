@@ -4,13 +4,12 @@ import React from 'react'
 import Layout from '../components/Layout'
 
 export default function index({ data }) {
-  const portfolioItems = data.portfolioItems.nodes;
-  console.log(portfolioItems);
+  const featuredItems = data.featuredItems.nodes;
 
   return (
     <Layout>
       <div className="image-gallery">
-        {portfolioItems.map(item => (
+        {featuredItems.map(item => (
           <Link to="/" className="grid-image">
             <GatsbyImage image={item.frontmatter.thumb.childImageSharp.gatsbyImageData}/>
             <div className="grid-image-overlay">
@@ -29,8 +28,8 @@ export default function index({ data }) {
 }
 
 export const query = graphql`
-query PortfolioPage {
-    portfolioItems: allMarkdownRemark {
+query FeaturedPage {
+  featuredItems: allMarkdownRemark(filter: {frontmatter: {featured: {eq: true}}}) {
       nodes {
         frontmatter {
           title
