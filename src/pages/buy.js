@@ -8,10 +8,10 @@ export default function buy({ data }) {
 
     return (
         <Layout>
-            <h1>Boards For Sale</h1>
+            <h1 className="grid-title">Boards For Sale</h1>
             <div className="image-gallery">
                 {buyItems.map(item => (
-                    <Link to="/" className="grid-image">
+                    <Link to={"/portfolio/" + item.frontmatter.slug} key={item.id} className="grid-image">
                         <GatsbyImage image={item.frontmatter.thumb.childImageSharp.gatsbyImageData}/>
                         <div className="grid-image-overlay">
                             <div className="overlay-text">
@@ -42,6 +42,7 @@ query BuyPage {
             }
           }
         }
+        id
       }
     }
   }

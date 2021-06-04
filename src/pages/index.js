@@ -10,7 +10,7 @@ export default function index({ data }) {
     <Layout>
       <div className="image-gallery">
         {featuredItems.map(item => (
-          <Link to="/" className="grid-image">
+          <Link to={"/portfolio/" + item.frontmatter.slug} key={item.id} className="grid-image">
             <GatsbyImage image={item.frontmatter.thumb.childImageSharp.gatsbyImageData}/>
             <div className="grid-image-overlay">
               <div className="overlay-text">
@@ -41,6 +41,7 @@ query FeaturedPage {
             }
           }
         }
+        id
       }
     }
   }

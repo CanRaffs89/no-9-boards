@@ -1,7 +1,7 @@
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import React from 'react'
-import Layout from '../components/Layout'
+import Layout from '../../components/Layout'
 
 export default function portfolio({ data }) {
     const penInkItems = data.penInkItems.nodes;
@@ -11,10 +11,10 @@ export default function portfolio({ data }) {
 
     return (
         <Layout>
-            <h1>Pen & Ink</h1>
+            <h1 className="grid-title">Pen & Ink</h1>
             <div className="image-gallery">
                 {penInkItems.map(item => (
-                    <Link to="/" className="grid-image">
+                    <Link to={"/portfolio/" + item.frontmatter.slug} key={item.id} className="grid-image">
                         <GatsbyImage image={item.frontmatter.thumb.childImageSharp.gatsbyImageData}/>
                         <div className="grid-image-overlay">
                         <div className="overlay-text">
@@ -27,7 +27,7 @@ export default function portfolio({ data }) {
                     </Link>  
                 ))}
             </div>
-            <h1>Zen Doodles</h1>
+            <h1 className="grid-title">Zen Doodles</h1>
             <div className="image-gallery">
                 {zenItems.map(item => (
                     <Link to="/" className="grid-image">
@@ -43,7 +43,7 @@ export default function portfolio({ data }) {
                     </Link>  
                 ))}
             </div>
-            <h1>Commissions</h1>
+            <h1 className="grid-title">Commissions</h1>
             <div className="image-gallery">
                 {commissionItems.map(item => (
                     <Link to="/" className="grid-image">
@@ -59,7 +59,7 @@ export default function portfolio({ data }) {
                     </Link>  
                 ))}
             </div>
-            <h1>Painted</h1>
+            <h1 className="grid-title">Painted</h1>
             <div className="image-gallery">
                 {paintedItems.map(item => (
                     <Link to="/" className="grid-image">
@@ -93,6 +93,7 @@ query PortfolioPage {
             }
           }
         }
+        id
       }
     }
     zenItems: allMarkdownRemark(filter: {frontmatter: {category: {eq: "zen"}}}) {
@@ -107,6 +108,7 @@ query PortfolioPage {
               }
             }
           }
+          id
         }
     }
     commissionItems: allMarkdownRemark(filter: {frontmatter: {category: {eq: "commission"}}}) {
@@ -121,6 +123,7 @@ query PortfolioPage {
               }
             }
           }
+          id
         }
     }
     paintedItems: allMarkdownRemark(filter: {frontmatter: {category: {eq: "painted"}}}) {
@@ -135,6 +138,7 @@ query PortfolioPage {
               }
             }
           }
+          id
         }
     }
   }
