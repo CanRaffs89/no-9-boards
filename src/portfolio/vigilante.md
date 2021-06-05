@@ -2,6 +2,7 @@
 title: Red Vigilante
 slug: vigilante
 date: Apr 2021
+media: iPad - Procreate
 thumb: ../images/thumbs/vigilante.png
 imgs: ../images/vigilante/
 category: buy

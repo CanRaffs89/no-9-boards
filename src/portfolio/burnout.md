@@ -2,6 +2,7 @@
 title: Burnout
 slug: burnout
 date: Apr 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/burnout.png
 imgs: ../images/burnout/
 category: pen-ink

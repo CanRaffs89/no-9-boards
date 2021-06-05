@@ -2,6 +2,7 @@
 title: Scarf Giraffe
 slug: giraffe
 date: Mar 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/giraffe.png
 imgs: ../images/giraffe/
 category: pen-ink

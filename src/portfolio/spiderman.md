@@ -2,6 +2,7 @@
 title: Spider-Man
 slug: spiderman
 date: Oct 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/spiderman.png
 imgs: ../images/spiderman/
 category: pen-ink

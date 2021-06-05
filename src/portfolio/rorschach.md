@@ -2,6 +2,7 @@
 title: Rorschach
 slug: rorschach
 date: July 2019
+media: Acrylic Pen - Pencil
 thumb: ../images/thumbs/rorschach.png
 imgs: ../images/rorschach/
 category: pen-ink

@@ -2,6 +2,7 @@
 title: Lighthouse
 slug: lighthouse
 date: Jan 2019
+media: Acrylic Paint
 thumb: ../images/thumbs/lighthouse.png
 imgs: ../images/lighthouse/
 category: painted

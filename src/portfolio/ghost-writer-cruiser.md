@@ -2,6 +2,7 @@
 title: Ghost Writer Cruiser
 slug: ghost-writer-cruiser
 date: July 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/ghost-writer-cruiser.png
 imgs: ../images/ghost-writer-cruiser/
 category: buy

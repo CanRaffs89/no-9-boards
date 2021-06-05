@@ -2,6 +2,7 @@
 title: Into the Woods Cruiser
 slug: woods
 date: Sept 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/woods-cruiser.png
 imgs: ../images/woods-cruiser/
 category: buy

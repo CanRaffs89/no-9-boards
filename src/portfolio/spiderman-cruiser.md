@@ -2,6 +2,7 @@
 title: Spider-Man Cruiser
 slug: spiderman-cruiser
 date: Oct 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/spiderman-cruiser.png
 imgs: ../images/spiderman-cruiser/
 category: buy

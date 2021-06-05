@@ -2,6 +2,7 @@
 title: Zen Hipster
 slug: zen-hipster
 date: June 2018
+media: Acrylic Pen
 thumb: ../images/thumbs/zen-hipster.png
 imgs: ../images/zen-hipster/
 category: zen

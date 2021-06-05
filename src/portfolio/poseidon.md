@@ -2,6 +2,7 @@
 title: Poseidon
 slug: poseidon
 date: Dec 2020
+media: iPad - Procreate
 thumb: ../images/thumbs/poseidon.png
 imgs: ../images/poseidon/
 category: buy

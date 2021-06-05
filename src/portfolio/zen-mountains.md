@@ -2,6 +2,7 @@
 title: Zen Mountains
 slug: zen-mountains
 date: Aug 2018
+media: Acrylic Pen
 thumb: ../images/thumbs/zen-mountains.png
 imgs: ../images/zen-mountains/
 category: zen

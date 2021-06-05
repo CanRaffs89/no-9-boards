@@ -2,6 +2,7 @@
 title: Mandalorian
 slug: mandalorian
 date: Apr 2020
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/mando-cruiser.png
 imgs: ../images/mandalorian/
 category: pen-ink

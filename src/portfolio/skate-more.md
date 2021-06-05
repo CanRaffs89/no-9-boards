@@ -2,6 +2,7 @@
 title: Skate More Worry Less
 slug: skate-more
 date: July 2018
+media: Acrylic Paint
 thumb: ../images/thumbs/skate-more.png
 imgs: ../images/skate-more/
 category: painted

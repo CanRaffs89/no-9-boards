@@ -2,6 +2,7 @@
 title: Mountains Calling Blue
 slug: mountains-calling-blue
 date: June 2018
+media: Acrylic Paint
 thumb: ../images/thumbs/mountains-calling-blue.png
 imgs: ../images/mountains-calling-blue/
 category: painted

@@ -2,6 +2,7 @@
 title: VW Campers
 slug: vw-campers
 date: Sept 2018
+media: Acrylic Paint
 thumb: ../images/thumbs/vw.png
 imgs: ../images/vw-campers/
 category: painted

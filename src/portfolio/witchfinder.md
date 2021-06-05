@@ -2,6 +2,7 @@
 title: Witchfinder
 slug: witchfinder
 date: Apr 2021
+media: iPad - Procreate
 thumb: ../images/thumbs/witchfinder-cruiser.png
 imgs: ../images/witchfinder/
 category: buy

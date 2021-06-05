@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav id="navbar">
             <div className="logo">
                 <Link to="/"><StaticImage src="../images/no-9-logo.png" alt="No 9 Boards logo" /></Link>
             </div>

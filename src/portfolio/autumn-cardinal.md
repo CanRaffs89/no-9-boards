@@ -2,6 +2,7 @@
 title: Autumn Cardinal
 slug: autumn-cardinal
 date: Aug 2018
+media: Acrylic Paint
 thumb: ../images/thumbs/autumn-cardinal.png
 imgs: ../images/autumn-cardinal/
 category: painted

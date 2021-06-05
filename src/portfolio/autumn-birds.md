@@ -2,6 +2,7 @@
 title: Autumn Birds
 slug: autumn-birds
 date: Aug 2018
+media: Acrylic Paint
 thumb: ../images/thumbs/birds.png
 imgs: ../images/autumn-birds/
 category: painted

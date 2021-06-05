@@ -2,6 +2,7 @@
 title: Ghost Writer
 slug: ghost-writer
 date: July 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/ghost-writer.png
 imgs: ../images/ghost-writer/
 category: pen-ink

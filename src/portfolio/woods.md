@@ -2,6 +2,7 @@
 title: Into the Woods
 slug: woods
 date: Sept 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/woods.png
 imgs: ../images/woods/
 category: pen-ink

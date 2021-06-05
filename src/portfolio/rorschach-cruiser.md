@@ -2,6 +2,7 @@
 title: Rorschach Cruiser
 slug: rorschach-cruiser
 date: July 2019
+media: Acrylic Pen - Pencil
 thumb: ../images/thumbs/rorschach-cruiser.png
 imgs: ../images/rorschach-cruiser/
 category: buy

@@ -2,6 +2,7 @@
 title: Brown Bear
 slug: bear
 date: Dec 2018
+media: Acrylic Pen - Pencil
 thumb: ../images/thumbs/bear.png
 imgs: ../images/bear/
 category: painted

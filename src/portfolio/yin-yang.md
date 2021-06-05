@@ -2,6 +2,7 @@
 title: Yin & Yang
 slug: yin-yang
 date: Oct 2018
+media: Acrylic Pen
 thumb: ../images/thumbs/yin-yang.png
 imgs: ../images/yin-yang/
 category: zen

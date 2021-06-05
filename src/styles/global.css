@@ -16,6 +16,7 @@ html {
     padding: 0;
     width: 100%;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -151,12 +152,19 @@ footer {
     width: 100%;
     height: 50px;
     display: flex;
+    flex-direction: column;
 }
 
-footer p {
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer a, p {
     font-size: 1rem;
     font-weight: 300;
     margin: auto;
+    padding: 10px 0;
 }
 
 /* Media Queries */

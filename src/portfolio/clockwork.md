@@ -2,6 +2,7 @@
 title: Clockwork
 slug: clockwork
 date: Dec 2018
+media: Acrylic Pen - Indian Ink
 thumb: ../images/thumbs/clockwork.png
 imgs: ../images/clockwork/
 category: pen-ink

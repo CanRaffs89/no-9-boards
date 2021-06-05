@@ -2,6 +2,7 @@
 title: Ghostbusters
 slug: ghostbusters
 date: May 2020
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/ghostbusters.png
 imgs: ../images/ghostbusters/
 category: commission

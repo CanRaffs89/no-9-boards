@@ -2,6 +2,7 @@
 title: Air Balloon
 slug: balloon
 date: Sept 2018
+media: Acrylic Pen
 thumb: ../images/thumbs/balloon.png
 imgs: ../images/balloon/
 category: zen

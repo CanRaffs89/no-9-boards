@@ -2,6 +2,7 @@
 title: Back to the Future
 slug: bttf
 date: July 2020
+media: Indian Ink - Acrylic Pen
 thumb: ../images/thumbs/bttf.png
 imgs: ../images/bttf/
 category: commission

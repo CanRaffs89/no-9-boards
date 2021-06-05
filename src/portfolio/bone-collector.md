@@ -2,6 +2,7 @@
 title: Bone Collector
 slug: bone-collector
 date: Jan 2021
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/bone-collector.png
 imgs: ../images/bone-collector/
 category: commission

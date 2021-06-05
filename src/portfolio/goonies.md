@@ -2,6 +2,7 @@
 title: Goonies
 slug: goonies
 date: Aug 2020
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/goonies.png
 imgs: ../images/goonies/
 category: commission

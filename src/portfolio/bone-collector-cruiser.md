@@ -2,6 +2,7 @@
 title: Bone Collector Cruiser
 slug: bone-collector-cruiser
 date: Jan 2021
+media: iPad - Procreate
 thumb: ../images/thumbs/bone-collector-cruiser.png
 imgs: ../images/bone-collector-cruiser/
 category: buy

@@ -2,6 +2,7 @@
 title: Red Cardinal
 slug: red-cardinal
 date: Aug 2018
+media: Acrylic Paint
 thumb: ../images/thumbs/cardinal.png
 imgs: ../images/red-cardinal/
 category: painted

@@ -2,6 +2,7 @@
 title: Galaxy
 slug: galaxy
 date: July 2020
+media: Acrylic Paint
 thumb: ../images/thumbs/galaxy.png
 imgs: ../images/galaxy/
 category: commission

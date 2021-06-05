@@ -2,6 +2,7 @@
 title: Star Wars
 slug: star-wars
 date: June 2020
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/star-wars.png
 imgs: ../images/star-wars/
 category: commission

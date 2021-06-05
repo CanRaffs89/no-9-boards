@@ -2,6 +2,7 @@
 title: Atlanta
 slug: atlanta
 date: Aug 2018
+media: Acrylic Paint
 thumb: ../images/thumbs/atlanta.png
 imgs: ../images/atlanta/
 category: painted

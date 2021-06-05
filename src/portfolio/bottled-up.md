@@ -2,6 +2,7 @@
 title: Bottled Up
 slug: bottled-up
 date: Dec 2018
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/bottled-up.png
 imgs: ../images/bottled-up/
 category: pen-ink

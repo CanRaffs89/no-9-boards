@@ -2,6 +2,7 @@
 title: Hipster Skeleton
 slug: hipster-skeleton
 date: Aug 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/hipster-skeleton.png
 imgs: ../images/hipster-skeleton/
 category: pen-ink

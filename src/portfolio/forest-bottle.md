@@ -2,6 +2,7 @@
 title: Forest in a Bottle
 slug: forest-bottle
 date: Feb 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/forest-bottle.png
 imgs: ../images/forest-bottle/
 category: pen-ink

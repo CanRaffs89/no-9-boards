@@ -2,6 +2,7 @@
 title: Mandalorian Portrait
 slug: mandalorian-portrait
 date: May 2021
+media: iPad - Procreate
 thumb: ../images/thumbs/mando-portrait-cruiser.png
 imgs: ../images/mandalorian-portrait/
 category: buy

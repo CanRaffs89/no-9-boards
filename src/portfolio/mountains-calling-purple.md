@@ -2,6 +2,7 @@
 title: Mountains Calling Purple
 slug: mountains-calling-purple
 date: Aug 2018
+media: Acrylic Paint
 thumb: ../images/thumbs/mountains-calling-purple.png
 imgs: ../images/mountains-calling-purple/
 category: painted

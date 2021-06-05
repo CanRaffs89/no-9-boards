@@ -20,7 +20,7 @@ export default function portfolio({ data }) {
                         <div className="overlay-text">
                             <h2>{ item.frontmatter.title }</h2>
                             <span></span>
-                            <p>Indian Ink - Pencil</p>
+                            <p>{ item.frontmatter.media }</p>
                             <p>{ item.frontmatter.date }</p>
                         </div>
                         </div>
@@ -30,13 +30,13 @@ export default function portfolio({ data }) {
             <h1 className="grid-title">Zen Doodles</h1>
             <div className="image-gallery">
                 {zenItems.map(item => (
-                    <Link to="/" className="grid-image">
+                    <Link to={"/portfolio/" + item.frontmatter.slug} key={item.id} className="grid-image">
                         <GatsbyImage image={item.frontmatter.thumb.childImageSharp.gatsbyImageData}/>
                         <div className="grid-image-overlay">
                         <div className="overlay-text">
                             <h2>{ item.frontmatter.title }</h2>
                             <span></span>
-                            <p>Indian Ink - Pencil</p>
+                            <p>{ item.frontmatter.media }</p>
                             <p>{ item.frontmatter.date }</p>
                         </div>
                         </div>
@@ -46,13 +46,13 @@ export default function portfolio({ data }) {
             <h1 className="grid-title">Commissions</h1>
             <div className="image-gallery">
                 {commissionItems.map(item => (
-                    <Link to="/" className="grid-image">
+                    <Link to={"/portfolio/" + item.frontmatter.slug} key={item.id} className="grid-image">
                         <GatsbyImage image={item.frontmatter.thumb.childImageSharp.gatsbyImageData}/>
                         <div className="grid-image-overlay">
                         <div className="overlay-text">
                             <h2>{ item.frontmatter.title }</h2>
                             <span></span>
-                            <p>Indian Ink - Pencil</p>
+                            <p>{ item.frontmatter.media }</p>
                             <p>{ item.frontmatter.date }</p>
                         </div>
                         </div>
@@ -62,13 +62,13 @@ export default function portfolio({ data }) {
             <h1 className="grid-title">Painted</h1>
             <div className="image-gallery">
                 {paintedItems.map(item => (
-                    <Link to="/" className="grid-image">
+                    <Link to={"/portfolio/" + item.frontmatter.slug} key={item.id} className="grid-image">
                         <GatsbyImage image={item.frontmatter.thumb.childImageSharp.gatsbyImageData}/>
                         <div className="grid-image-overlay">
                         <div className="overlay-text">
                             <h2>{ item.frontmatter.title }</h2>
                             <span></span>
-                            <p>Indian Ink - Pencil</p>
+                            <p>{ item.frontmatter.media }</p>
                             <p>{ item.frontmatter.date }</p>
                         </div>
                         </div>
@@ -86,6 +86,7 @@ query PortfolioPage {
         frontmatter {
           title
           date
+          media
           slug
           thumb {
             childImageSharp {
@@ -101,6 +102,7 @@ query PortfolioPage {
           frontmatter {
             title
             date
+            media
             slug
             thumb {
               childImageSharp {
@@ -116,6 +118,7 @@ query PortfolioPage {
           frontmatter {
             title
             date
+            media
             slug
             thumb {
               childImageSharp {
@@ -131,6 +134,7 @@ query PortfolioPage {
           frontmatter {
             title
             date
+            media
             slug
             thumb {
               childImageSharp {

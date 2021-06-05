@@ -2,6 +2,7 @@
 title: Mr. Hare
 slug: mr-hare
 date: Aug 2019
+media: Indian Ink - Pencil
 thumb: ../images/thumbs/hare.png
 imgs: ../images/mr-hare/
 category: pen-ink

@@ -2,6 +2,7 @@
 title: Here Be Monsters
 slug: monsters
 date: Feb 2019
+media: Indian Ink - Acrylic Pen
 thumb: ../images/thumbs/monsters.png
 imgs: ../images/monsters/
 category: pen-ink
