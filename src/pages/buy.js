@@ -17,7 +17,7 @@ export default function buy({ data }) {
                             <div className="overlay-text">
                                 <h2>{ item.frontmatter.title }</h2>
                                 <span></span>
-                                <p>Indian Ink - Pencil</p>
+                                <p>{ item.frontmatter.media }</p>
                                 <p>{ item.frontmatter.date }</p>
                             </div>
                         </div>
@@ -35,6 +35,7 @@ query BuyPage {
         frontmatter {
           title
           date
+          media
           slug
           thumb {
             childImageSharp {

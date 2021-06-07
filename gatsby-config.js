@@ -22,4 +22,8 @@ module.exports = {
       },
     },
   ],
+  siteMetadata: {
+    title: 'No 9 Boards',
+    description: 'Custom skateboard designs'
+  }
 };
