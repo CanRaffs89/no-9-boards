@@ -125,6 +125,7 @@ nav ul li a {
     color: var(--white);
     font-family: 'Perpetua';
     text-align: center;
+    width: 80%;
 }
 
 .overlay-text span {

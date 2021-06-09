@@ -30,7 +30,7 @@ export default function buy({ data }) {
 
 export const query = graphql`
 query BuyPage {
-  buyItems: allMarkdownRemark(filter: {frontmatter: {category: {eq: "buy"}}}) {
+  buyItems: allMarkdownRemark(filter: {frontmatter: {forSale: {eq: true}}}) {
       nodes {
         frontmatter {
           title
