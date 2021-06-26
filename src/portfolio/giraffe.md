@@ -4,7 +4,9 @@ slug: giraffe
 date: Mar 2019
 media: Indian Ink - Pencil
 thumb: ../images/thumbs/giraffe.png
-imgs: ../images/giraffe/
+img01: ../images/giraffe/giraffe01.jpg
+img02: ../images/giraffe/giraffe02.jpg
+img03: ../images/giraffe/giraffe03.jpg
 category: pen-ink
 featured: true
 forSale: false

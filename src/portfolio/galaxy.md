@@ -4,7 +4,9 @@ slug: galaxy
 date: July 2020
 media: Acrylic Paint
 thumb: ../images/thumbs/galaxy.png
-imgs: ../images/galaxy/
+img01: ../images/galaxy/galaxy01.jpg
+img02: ../images/galaxy/galaxy02.jpg
+img03: ../images/galaxy/galaxy03.jpg
 category: commission
 featured: false
 forSale: false

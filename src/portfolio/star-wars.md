@@ -4,7 +4,9 @@ slug: star-wars
 date: June 2020
 media: Indian Ink - Pencil
 thumb: ../images/thumbs/star-wars.png
-imgs: ../images/star-wars/
+img01: ../images/star-wars/star-wars01.jpg
+img02: ../images/star-wars/star-wars02.jpg
+img03: ../images/star-wars/star-wars03.jpg
 category: commission
 featured: false
 forSale: false

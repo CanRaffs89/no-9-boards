@@ -4,7 +4,9 @@ slug: lighthouse
 date: Jan 2019
 media: Acrylic Paint
 thumb: ../images/thumbs/lighthouse.png
-imgs: ../images/lighthouse/
+img01: ../images/lighthouse/lighthouse01.jpg
+img02: ../images/lighthouse/lighthouse02.jpg
+img03: ../images/lighthouse/lighthouse03.jpg
 category: painted
 featured: false
 forSale: false

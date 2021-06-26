@@ -4,7 +4,9 @@ slug: witchfinder
 date: Apr 2021
 media: iPad - Procreate
 thumb: ../images/thumbs/witchfinder-cruiser.png
-imgs: ../images/witchfinder/
+img01: ../images/witchfinder/witchfinder-cruiser01.jpg
+img02: ../images/witchfinder/witchfinder-cruiser02.jpg
+img03: ../images/witchfinder/witchfinder-cruiser03.jpg
 category: digital
 featured: false
 forSale: true

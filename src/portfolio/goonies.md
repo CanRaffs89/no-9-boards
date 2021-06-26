@@ -4,7 +4,9 @@ slug: goonies
 date: Aug 2020
 media: Indian Ink - Pencil
 thumb: ../images/thumbs/goonies.png
-imgs: ../images/goonies/
+img01: ../images/goonies/goonies01.jpg
+img02: ../images/goonies/goonies02.jpg
+img03: ../images/goonies/goonies03.jpg
 category: commission
 featured: false
 forSale: false

@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 
 export default function itemDetails({ data }) {
     const { html } = data.markdownRemark
-    const { title, date, thumb } = data.markdownRemark.frontmatter
+    const { title, date, img01, img02, img03 } = data.markdownRemark.frontmatter
 
     return (
         <Layout>
@@ -13,7 +13,9 @@ export default function itemDetails({ data }) {
                 <h2>{title}</h2>
                 <h3>{date}</h3>
                 <div>
-                    <GatsbyImage image={thumb.childImageSharp.gatsbyImageData}/>
+                    <GatsbyImage image={img01.childImageSharp.gatsbyImageData}/>
+                    <GatsbyImage image={img02.childImageSharp.gatsbyImageData}/>
+                    <GatsbyImage image={img03.childImageSharp.gatsbyImageData}/>
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: html }} />
             </div>
@@ -29,7 +31,17 @@ export const query = graphql`
                 title
                 date
                 slug
-                thumb {
+                img01 {
+                    childImageSharp {
+                        gatsbyImageData(placeholder: BLURRED)
+                    }
+                }
+                img02 {
+                    childImageSharp {
+                        gatsbyImageData(placeholder: BLURRED)
+                    }
+                }
+                img03 {
                     childImageSharp {
                         gatsbyImageData(placeholder: BLURRED)
                     }

@@ -1,0 +1,15 @@
+---
+title: Mountains Calling Zen
+slug: mountains-calling-zen
+date: June 2018
+media: Acrylic Pen
+thumb: ../images/thumbs/mountains-calling-zen.png
+img01: ../images/mountains-calling-zen/mountains-calling-zen01.jpg
+img02: ../images/mountains-calling-zen/mountains-calling-zen02.jpg
+img03: ../images/mountains-calling-zen/mountains-calling-zen03.jpg
+category: zen
+featured: false
+forSale: false
+---
+
+Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat.

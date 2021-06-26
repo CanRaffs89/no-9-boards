@@ -4,7 +4,9 @@ slug: burnout
 date: Apr 2019
 media: Indian Ink - Pencil
 thumb: ../images/thumbs/burnout.png
-imgs: ../images/burnout/
+img01: ../images/burnout/burnout01.jpg
+img02: ../images/burnout/burnout02.jpg
+img03: ../images/burnout/burnout03.jpg
 category: pen-ink
 featured: true
 forSale: false

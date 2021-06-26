@@ -4,7 +4,9 @@ slug: poseidon
 date: Dec 2020
 media: iPad - Procreate
 thumb: ../images/thumbs/poseidon.png
-imgs: ../images/poseidon/
+img01: ../images/poseidon/poseidon01.jpg
+img02: ../images/poseidon/poseidon02.jpg
+img03: ../images/poseidon/poseidon03.jpg
 category: digital
 featured: true
 forSale: true
