@@ -4,7 +4,11 @@ import Layout from '../components/Layout'
 export default function contact() {
     return (
         <Layout>
-            <div>Contact Page</div>
+            <div className="inner-content">
+                <h2>Contact</h2>
+                <p>For any questions or request, please message me at: </p>
+                <a href="mailto:no9boards@gmail.com">no9boards@gmail.com</a>
+            </div>
         </Layout>
     )
 }

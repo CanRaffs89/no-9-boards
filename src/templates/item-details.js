@@ -9,7 +9,7 @@ export default function itemDetails({ data }) {
 
     return (
         <Layout>
-            <div className="item-details-wrapper">
+            <div className="inner-content">
                 <div className="item-text-wrapper">
                     <h2>{title}</h2>
                     <h3>{media}</h3>

@@ -12,10 +12,7 @@
 }
 
 html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
+    position: relative;
     scroll-behavior: smooth;
 }
 
@@ -23,9 +20,38 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--black);
+    color: var(--white);
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.inner-content {
+    padding: 0 100px;
+}
+
+/* General Text Styles */
+h2 {
+    font-size: 1.875rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 200;
+    font-style: italic;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 10px 0;
+    margin: 0;
+}
+
+a {
     color: var(--white);
 }
 
@@ -79,7 +105,7 @@ nav ul li a {
     font-weight: 300;
 }
 
-/* Image Gallery*/
+/* Image Gallery */
 .grid-title {
     font-size: 1.875rem;
     font-weight: 300;
@@ -148,21 +174,7 @@ nav ul li a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/*Item Details*/
-.item-details-wrapper {
-    padding: 0 100px;
-}
-
-.item-text-wrapper h2 {
-    font-size: 1.875rem;
-    font-weight: 300;
-}
-
-.item-text-wrapper h3 {
-    font-weight: 200;
-    font-style: italic;
-}
-
+/* Item Details */
 .item-image-wrapper {
     margin: 20px auto;
     display: grid;
@@ -188,23 +200,17 @@ nav ul li a {
 
 /* Footer */
 footer {
+    background: var(--black);
     width: 100%;
     height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
     display: flex;
-    flex-direction: column;
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--white);
-}
-
-footer a, p {
-    font-size: 1rem;
-    font-weight: 300;
-    margin: auto;
-    padding: 10px 0;
-}
+    align-items: center;
+    justify-content: center;
+}    
 
 /* Media Queries */
 @media (max-width: 1070px) {
@@ -215,6 +221,10 @@ footer a, p {
 }
 
 @media (max-width: 864px) {
+    .inner-content {
+        padding: 0 20px;
+    }
+
     /* Navbar */
     nav {
         height: 50px;
@@ -304,11 +314,7 @@ footer a, p {
         font-size: 20px;
     }
 
-    /*Item Details*/
-    .item-details-wrapper {
-        padding: 0 20px;
-    }
-
+    /* Item Details */
     .item-text-wrapper h2 {
         font-size: 1.5rem;
     }
