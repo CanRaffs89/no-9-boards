@@ -6,7 +6,7 @@ export default function contact() {
         <Layout>
             <div className="inner-content">
                 <h2>Contact</h2>
-                <p>For any questions or request, please message me at: </p>
+                <p>For any questions or requests, please message me at: </p>
                 <a href="mailto:no9boards@gmail.com">no9boards@gmail.com</a>
             </div>
         </Layout>
