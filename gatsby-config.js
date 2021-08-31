@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "No 9 Boards",
+    description: 'Custom skateboard designs'
   },
+  pathPrefix: "/no-9-boards/",
   plugins: [
     "gatsby-transformer-remark",
     "gatsby-plugin-image",
@@ -21,9 +23,5 @@ module.exports = {
         path: `${__dirname}/src/portfolio/`,
       },
     },
-  ],
-  siteMetadata: {
-    title: 'No 9 Boards',
-    description: 'Custom skateboard designs'
-  }
+  ]
 };
